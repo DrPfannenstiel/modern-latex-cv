@@ -5,22 +5,8 @@
 
 \begin{document}
 
-\columnratio{0.31}
-\setlength{\columnsep}{2.2em}
-\setlength{\columnseprule}{4pt}
-\colseprulecolor{white}
+\input{section/init}
 
-
-% LEBENSLAUF HIERE
-\AtBeginShipoutFirst{\Header{Lebenslauf}\Footer{1}}
-\AtBeginShipout{\AtBeginShipoutAddToBox{\Header{Lebenslauf}\Footer{2}}}
-
-\newpage
-
-\colseprulecolor{lightcol}
-\columnratio{0.31}
-\setlength{\columnsep}{2.2em}
-\setlength{\columnseprule}{4pt}
 \begin{paracol}{2}
 \begin{leftcolumn}
 \input{section/left}
@@ -29,6 +15,5 @@
 \input{section/right}
 \end{rightcolumn}
 \end{paracol}
-
 
 \end{document}

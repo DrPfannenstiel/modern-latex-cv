@@ -66,6 +66,15 @@
 	\makebox(#2, #2){\textcolor{maincol}{\csname fa#1\endcsname}}
 }	
 
+% icon huge with text shortcut
+\newcommand{\icontextHuge}[4]{ 						
+	\vcenteredhbox{\iconHuge{#1}{#2}{#3}}  \hspace{2pt}  \parbox{0.9\mpwidth}{\textcolor{#4}{#3}}
+}
+
+% icon huge shortcut
+\newcommand{\iconHuge}[3] { 							
+	\makebox(#2, #2){\textcolor{maincol}{\Large\csname fa#1\endcsname}}
+}	
 
 % icon with text shortcut
 \newcommand{\icontext}[4]{ 						
